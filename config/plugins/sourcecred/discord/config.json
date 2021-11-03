@@ -1,0 +1,40 @@
+[
+  {
+    "channelWeightConfig": {
+      "defaultWeight": 1,
+      "weights": {
+      }
+    },
+    "guildId": "786400774078464000",
+    "includeNsfwChannels": false,
+    "propsChannels": [
+    ],
+    "reactionWeightConfig": {
+      "applyAveraging": false,
+      "defaultWeight": 1,
+      "weights": {
+        "❤️": 10,
+        "🧡": 10,
+        "💛": 10,
+        "💚": 10,
+        "💙": 10,
+        "💜": 10,
+        "🖤": 10,
+        "💗": 10,
+        "💓": 10,
+        "💘": 10,
+        "💕": 10,
+        "💖": 10,
+        "💞": 10,
+        "💝": 10,
+        "♥️": 10,
+        "💔": 10
+      }
+    },
+    "roleWeightConfig": {
+      "defaultWeight": 1,
+      "weights": {
+      }
+    }
+  }
+]
