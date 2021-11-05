@@ -19,6 +19,8 @@
     "roleWeightConfig": {
       "defaultWeight": 1,
       "weights": {
+        "786427976605892688": 2,
+        "786425399554867210": 3
       }
     }
   }
