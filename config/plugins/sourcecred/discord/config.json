@@ -3,11 +3,15 @@
     "channelWeightConfig": {
       "defaultWeight": 1,
       "weights": {
+        "786404961193164821": 15,
+        "788827205609848863": 1.5,
+        "803418252943556658": 2
       }
     },
     "guildId": "786400774078464000",
     "includeNsfwChannels": false,
     "propsChannels": [
+      "786404961193164821"
     ],
     "reactionWeightConfig": {
       "applyAveraging": false,
