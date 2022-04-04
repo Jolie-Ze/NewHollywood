@@ -3,16 +3,18 @@
     "channelWeightConfig": {
       "defaultWeight": 1,
       "weights": {
-        "786404961193164821": 10,
-        "788827205609848863": 1.5,
-        "803418252943556658": 2
+        "786404961193164821//intros": 10,
+        "788827205609848863//announcements": 1.5,
+        "803418252943556658//proposals": 10,
+        "938241525245182073//props": 10,
+        "938241230066827294//didathing": 8
+        
       }
     },
     "guildId": "786400774078464000",
     "includeNsfwChannels": false,
-    "propsChannels": [
-      "786404961193164821"
-    ],
+    "propsChannels": ["786404961193164821//intros"],
+    "propsChannels": ["938241525245182073//props"],
     "reactionWeightConfig": {
       "applyAveraging": false,
       "defaultWeight": 1,
@@ -23,8 +25,8 @@
     "roleWeightConfig": {
       "defaultWeight": 1,
       "weights": {
-        "786427976605892688": 2,
-        "786425399554867210": 3
+        "786427976605892688//moderator": 2,
+        "786425399554867210//admin": 3
       }
     }
   }
