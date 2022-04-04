@@ -165,6 +165,6 @@ The full instructions for setting up the Discord plugin can be found in the [Dis
 To deactivate a plugin, just remove it from the `bundledPlugins` array in the `sourcecred.json` file.
 You can also remove its `config/plugins/OWNER/NAME` directory for good measure.
 
-
+hehe
 
 [Yarn]: https://classic.yarnpkg.com/
