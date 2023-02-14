@@ -1,3 +1,108 @@
 {
-  "bundledPlugins": ["sourcecred/discord"]
+  "bundledPlugins": ["sourcecred/discord"],
+  "credEquatePlugins": [
+    {
+      "id": "sourcecred/discord",
+      "configsByTarget": {
+        "786400774078464000": [
+          {
+            "memo": "NewHollywood credequate",
+            "startDate": "12/27/2020",
+            "weights": [
+              {
+                "key": "emoji",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "❤️",
+                    "weight": 10
+                  }
+                ]
+              },
+              {
+                "key": "role",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "786427976605892688",
+                    "memo": "moderator",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "786425399554867210",
+                    "memo": "admin",
+                    "weight": 3
+                  }
+                ]
+              },
+              {
+                "key": "channel",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "786404961193164821",
+                    "memo": "intros",
+                    "weight": 10
+                  },
+                  {
+                    "subkey": "788827205609848863",
+                    "memo": "announcements",
+                    "weight": 1.5
+                  },
+                  {
+                    "subkey": "803418252943556658",
+                    "memo": "proposals",
+                    "weight": 10
+                  },
+                  {
+                    "subkey": "938241525245182073",
+                    "memo": "props",
+                    "weight": 10
+                  },
+                  {
+                    "subkey": "938241230066827294",
+                    "memo": "didathing",
+                    "weight": 8
+                  }
+                ]
+              },
+              {
+                "key": "category",
+                "default": 1,
+                "subkeys": []
+              }
+            ],
+            "operators": [
+              {
+                "key": "reactionsAcrossParticipants",
+                "operator": "ADD"
+              },
+              {
+                "key": "reactionsOfSingleParticipant",
+                "operator": "ADD"
+              }
+            ],
+            "shares": [
+              {
+                "key": "author",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "938241525245182073",
+                    "memo": "props",
+                    "weight": 0
+                  }
+                ]
+              },
+              {
+                "key": "mention",
+                "default": 1,
+                "subkeys": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
