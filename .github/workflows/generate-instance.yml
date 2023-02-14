@@ -27,11 +27,15 @@ jobs:
 
       - name: Load Data and Compute Cred 🧮
         run: |
-          yarn sourcecred go
+          yarn load
+          mkdir -p output/contributions/sourcecred/discord
+          yarn sourcecred contributions
+          yarn sourcecred credequate
           yarn sourcecred analysis
         env:
           SOURCECRED_GITHUB_TOKEN: ${{ secrets.SOURCECRED_GITHUB_TOKEN }}
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
+          NODE_OPTIONS: "--max-old-space-size=8192"
 
       - name: Generate Frontend 🏗
         run: |
